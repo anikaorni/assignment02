@@ -100,3 +100,102 @@ button{
     margin-top: -70px;
     background: transparent;
 }
+.offer-section{
+    display: flex;
+    gap: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.offer-text{
+    background:none;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 0;
+    
+}
+.offer-text h2{
+    background: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.offer-text a{
+    background: none;
+    color:white;
+    font-size: 20px;
+    
+}
+.offer-text2{
+    background:none;
+    padding: 200px 30px;
+}
+.offer-text2 h2{
+    background: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    font-size: 2em;
+}
+.offer-text2 a{
+    background: none;
+    color:white;
+    font-size: 20px;
+}
+.bloom , .ana{
+   height: 200px;
+   width: 300px;
+   margin-right: 0;
+   filter: brightness(0.9);
+
+}
+.zabo{
+    height: 410px;
+    width: 700px;
+    margin-left: 0;
+    filter: brightness(0.9);
+}
+.offer{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+.Subscribe{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+.join{
+    background-image: url(assets/news-letter-bg.png);
+    height: 400px;
+    width: auto;
+    margin: 70px 0;
+    margin-left: 0;
+    background-size: cover;
+}
+.join h2{
+    background: none;
+}
+.join input{
+    width: 50%;
+    background: none;
+}
+footer{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+}
