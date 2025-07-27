@@ -9,7 +9,7 @@
 }
 *{
     background-color: #F5F8FF;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .black{
     color: black;
@@ -74,7 +74,7 @@ nav ul a{
 .cart h4{
     padding: 5px;
 }
-button{
+.cart button{
     background-color: #E95A08;
     color: white;
     padding: 10px 5px;
@@ -175,6 +175,10 @@ button{
     background: transparent;
     border: none;
 }
+.form{
+    display: flex;
+    justify-content: center;
+}
 .join{
     background-image: url(assets/news-letter-bg.png);
     height: 400px;
@@ -182,20 +186,49 @@ button{
     margin: 70px 0;
     margin-left: 0;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .join h2{
     background: none;
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
 }
 .join input{
-    width: 50%;
-    background: none;
+    width: 450px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+.submit{
+    background-color: #E95A08;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid #E95A08;
 }
 footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 350px auto 350px auto;
+    padding: 20px 0;
 }
 footer ul li{
     list-style: none;
+    font-size: 15px;
+    color: gray;
+    line-height: 40px;
+
 }
 footer a{
     text-decoration: none;
+    color: gray;
+}
+.icon{
+    display: flex;
 }
